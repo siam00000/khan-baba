@@ -942,7 +942,7 @@ def not_reg():
     print('\033[1;93m Your Token_token : \033[1;92m' + v_Token_token)
 
 raw_input("  \t  \033[1;93m Press enter to check again ")
-    os.system('https://www.facebook.com/profile.php?id=100052683424097') #facebook id link here
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100052683424097') #facebook id link here
     Token_token()
 
 
