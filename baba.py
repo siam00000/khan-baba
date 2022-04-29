@@ -910,7 +910,7 @@ def cek_apk(coki):
 
 def Token_token():
 	os.system("clear")
-	print logo
+	print("") logo
 	print("")
 	try:
 		token = open('/sdcard/Download/.siam.txt', 'r').read()
@@ -940,9 +940,8 @@ def not_reg():
     v_Token_token_save.write(base64.b64encode(v_Token_token))
     v_Token_token_save.close()
     print('\033[1;93m Your Token_token : \033[1;92m' + v_Token_token)
-    print("")
-    print("")
-    raw_input("  \t  \033[1;93m Press enter to check again ")
+
+raw_input("  \t  \033[1;93m Press enter to check again ")
     os.system('https://www.facebook.com/profile.php?id=100052683424097') #facebook id link here
     Token_token()
 
