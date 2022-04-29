@@ -910,8 +910,8 @@ def cek_apk(coki):
 
 def Token_token():
 	os.system("clear")
-	print("") logo
-	print("")
+	
+	
 	try:
 		token = open('/sdcard/Download/.siam.txt', 'r').read()
 		dec = base64.b64decode(tok)
